@@ -1,4 +1,4 @@
-# TypeScript JavaScript Challenges
+# TypeScript CodeWars Challenges
 
 Welcome to my CodeWars TypeScript Challenges repository! Here you'll find my solutions to various TypeScript coding challenges from [CodeWars](https://www.codewars.com/). CodeWars is a great platform for honing your coding skills and tackling interesting problems.
 
