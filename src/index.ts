@@ -10,16 +10,27 @@
 //   }
 //   console.log(betterThanAverage([41, 75, 72, 56, 80, 82, 81, 33], 50))
 
-
 // Question #2: Write a function to convert a name into initials. This kata strictly takes two words with one space in between them. The output should be two capital letters with a dot separating them.It should look like this:
 // Sam Harris => S.H
 // patrick feeney => P.F
 
 //Solution
 // function abbrevName(name: string): string {
-    
+
 //     console.log(name.split(" ")[0][0])
 
 //     return `${name.split(" ")[0][0].toUpperCase()}.${name.split(" ")[1][0].toUpperCase()}`;
 // }
 // console.log(abbrevName("patrick feeney"))
+
+// Question #3:  Write a function which takes a number and returns the corresponding ASCII char for that value.  Example:
+
+// 65 --> 'A'
+// 97 --> 'a'
+// 48 --> '0
+
+//Solution
+// function getChar(c: number): string {
+//   return String.fromCharCode(c);
+// }
+// console.log(getChar(65));

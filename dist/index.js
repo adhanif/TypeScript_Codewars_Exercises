@@ -18,3 +18,12 @@
 //     return `${name.split(" ")[0][0].toUpperCase()}.${name.split(" ")[1][0].toUpperCase()}`;
 // }
 // console.log(abbrevName("patrick feeney"))
+// Question #3:  Write a function which takes a number and returns the corresponding ASCII char for that value.  Example:
+// 65 --> 'A'
+// 97 --> 'a'
+// 48 --> '0
+//Solution
+// function getChar(c: number): string {
+//   return String.fromCharCode(c);
+// }
+// console.log(getChar(65));
