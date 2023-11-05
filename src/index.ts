@@ -35,10 +35,18 @@
 // }
 // console.log(getChar(65));
 
-// Question #4:You will be given an array a and a value x. All you need to do is check whether the provided array contains the value. Array can contain numbers or strings. X can be either. Return true if the array contains the value, false if not.
+// Question #4: You will be given an array a and a value x. All you need to do is check whether the provided array contains the value. Array can contain numbers or strings. X can be either. Return true if the array contains the value, false if not.
 
 //Solution
 // const check = (a: (number | string)[], x: number | string): boolean => {
 //   return a.includes(x) ? true : false;
 // };
 // console.log(check([66, 101], 66));
+
+// Question #5: This kata is about multiplying a given number by eight if it is an even number and by nine otherwise.
+
+//Solution
+// const simpleMultiply = (num: number): number => {
+//   return num % 2 === 0 ? num * 8 : num * 9;
+// };
+// console.log(simpleMultiply(2));
