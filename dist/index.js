@@ -39,3 +39,23 @@
 //   return num % 2 === 0 ? num * 8 : num * 9;
 // };
 // console.log(simpleMultiply(2));
+// Question #6: Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present).
+// [true,  true,  true,  false,
+//     true,  true,  true,  true ,
+//     true,  false, true,  false,
+//     true,  false, false, true ,
+//     true,  true,  true,  true ,
+//     false, false, true,  true]
+// const countSheeps = (arraySheeps: (boolean | undefined | null)[]): number => {
+//   //   let counter: number = 0;
+//   //   arraySheeps.forEach((sheep) => (sheep === true ? counter++ : sheep));
+//   //   return counter;
+//   return arraySheeps.filter(Boolean).length;
+// };
+// // prettier-ignore
+// console.log(countSheeps([true,  true,  true,  false,
+//     true,  true,  true,  true ,
+//     true,  false, true,  false,
+//     true,  false, false, true ,
+//     true,  true,  true,  true ,
+//     false, false, true,  true]));
